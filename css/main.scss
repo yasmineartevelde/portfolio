@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,700');
+/* kleuren */ 
+$color1: #ffc607;
+$color2: #0000ff;
+
+ nav ul a,
+ nav .brand-logo {
+   color: $color2;
+   padding-left: 80px;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ body {
+  font-family: 'Exo 2', sans-serif;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+.logo-header {
+  img {
+    margin-top: 90px;
+    margin-left: -60px;
+    width: 600px;
+    height: auto;
+  }
+}
+.parallax-cont-header {
+  min-height: 580px;
+}
+.txt-header {
+  color: $color2;
+}
+.icon-row {
+  padding-top: 150px;
+}
+.contact-txt {
+  margin-bottom: 50px;
+
+}
+.button-mail {
+  background-color: $color1;
+}
+.button-mail :hover {
+  background-color: $color2;
+}
+.project {
+  img {
+    position: sticky;
+  }
+}
+.connect {
+  ul {
+    display: flex;
+    flex-direction: row;
+
+    li {
+      padding-right: 50px;
+      margin-top: 140px;
+    }
+  }
+}
+
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+  }
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
+ 
